@@ -1,0 +1,66 @@
+@import 'https://fonts.googleapis.com/css?family=Ubuntu|Noto+Sans|Open+Sans|Roboto';
+body {
+    background: url(https://agpirie.github.io/ale-l21wall.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Noto Sans;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: red;
+    font-family: Roboto;
+    font-weight: 100;
+    padding-top: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.button{
+    background-color: red;
+    border-radius: 6px;
+    
+}
+
+.navbar {
+    background-color: white;
+    height: 50px;
+    margin-top: -22px;
+    padding-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.getbessos {
+    display: inline-block;
+    float: right;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.getbessostext {
+    transition: ease-in-out 0.2s;
+    padding: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 6px;
+    color: white;
+    border-color: red;
+    background-color: red;
+}
+
+.getbessostext:hover {
+    transition: ease-in-out 0.2s;
+    padding: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 6px;
+    color: red;
+    border-color: red;
+    background-color: white;
+    cursor: pointer;
+}
