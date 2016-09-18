@@ -190,5 +190,14 @@ body {
 }
 
 .video {
+    transition: ease-in-out 0.2s;
+    margin: 0;
+    padding: 0;
+    
     padding: 20px;
+}
+
+.video:hover {
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
 }
